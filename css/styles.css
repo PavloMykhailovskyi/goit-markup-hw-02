@@ -6,6 +6,7 @@
 --secondary-title-color: #FFFFFF;
 --main-background-color: #2F303A;
 --background-color: #F5F4FA;
+--btn-background-color: #188CE8;
 }
 body {
     font-family: Roboto, sans-serif;
@@ -97,6 +98,10 @@ body {
     cursor: pointer;
 }
 
+.hero-btn:hover, .hero-btn:focus {
+color: var(--secondary-title-color);
+background-color: var(--btn-background-color);
+}
 /*----------------------------features-------------------*/
 
 .features {
@@ -275,7 +280,6 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-title-color);
-    text-decoration: none;
 }
 
 .text-item {
@@ -286,9 +290,12 @@ body {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-    text-decoration: none;
 } 
 
 .title-item:hover, .title-item:focus, .text-item:hover, .text-item:focus {
     color: var(--accent-color);
+}
+
+.list-link {
+    text-decoration: none;
 }
