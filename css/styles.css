@@ -9,6 +9,7 @@
 --btn-background-color: #188CE8;
 --logo-color: #000000;
 }
+
 body {
     font-family: Roboto, sans-serif;
     font-size: 14px;
@@ -21,13 +22,15 @@ body {
     list-style: none;
 }
 
+.nav-link.current {
+    color: var(--accent-color);
+}
 
 
 /*--------------------------------header--------------------*/
 
 .nav-logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -40,7 +43,6 @@ body {
 }
 
 .nav-link {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -83,7 +85,7 @@ body {
 }
 
 .hero-btn {
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -163,7 +165,6 @@ background-color: var(--btn-background-color);
 
 .footer-logo-main {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -205,7 +206,7 @@ background-color: var(--btn-background-color);
     visibility: hidden;
 }
 .portfolio-btn {
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -221,7 +222,6 @@ background-color: var(--btn-background-color);
 }
 
 .title-link {
-    font-style: normal;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -229,7 +229,6 @@ background-color: var(--btn-background-color);
 }
 
 .text-link {
-    font-style: normal;
     font-size: 16px;
     line-height: 1.88;
     color: var(--primary-text-color);
