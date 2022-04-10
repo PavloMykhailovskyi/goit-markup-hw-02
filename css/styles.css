@@ -25,7 +25,11 @@ body {
 .nav-link.current {
     color: var(--accent-color);
 }
-
+ 
+.portfolio-btn.current {
+    color: var(--secondary-title-color);
+    background-color: var(--accent-color) ;
+}
 
 /*--------------------------------header--------------------*/
 
